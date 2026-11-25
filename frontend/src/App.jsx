@@ -4,7 +4,7 @@ import L from 'leaflet';
 import {AreaChart,Area,XAxis,YAxis,Tooltip,ResponsiveContainer,CartesianGrid,BarChart,Bar} from 'recharts';
 import {Activity,AlertTriangle,MapPinned,ShieldCheck,Database,Camera,Menu, Bell, CloudRain, Waves, Siren, Navigation, Upload, RefreshCw, FileText, LayoutDashboard} from 'lucide-react';
 
-const API='const API = '/api';
+const API = '/api';
 const icon=(color)=>L.divIcon({className:'pin-wrap',html:`<div class="map-pin" style="background:${color}"></div>`,iconSize:[18,18],iconAnchor:[9,9]});
 const nav=[['Overview','overview'],['Disaster Data','data'],['Flood Prediction','prediction'],['Emergency & SOS','emergency'],['Shelters & Routes','map']];
 
