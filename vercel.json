@@ -5,10 +5,14 @@
       "root": "frontend/"
     },
     "backend": {
-      "root": "backend/"
+      "root": "backend/",
+      "framework": "express",
+      "entrypoint": "server.js"
     },
     "database": {
-      "root": "database/"
+      "root": "database/",
+      "framework": "express",
+      "entrypoint": "server.js"
     }
   },
   "rewrites": [
